@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    cursor: url(assets/hand.png), auto;
+    background-color: black;
+}
+
+.cat img{
+    position: absolute;
+}
+.custompointer {
+    position: absolute;
+    pointer-events: none;
+    display: none;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#img-cat1{
+    width: 15%;
+    left: 35%;
+    top: 8%;
+    /* border: 3px black solid; */
+}
+
+#img-cat2{
+    width: 30%;
+    left: 2%;
+    top: 15%;
+    /* border: 3px yellow solid; */
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
+    z-index: 1;
+}
+
+#img-cat3{
+    width: 40%;
+    left: 10%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+#img-cat4{
+    width: 30%;
+    left: 68%;
+    top: 50%;
+    /* border: 3px green solid; */
+}
+
+#img-cat5{
+    width: 15%;
+    left: 52%;
+    top: 30%;
+    /* border: 3px red solid; */
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
+}
+
+.notes img{
+    position: absolute;
+    width: 38%;
+    left: 60%;
+    top: 7%;
+    transform: rotate(13deg);
+    pointer-events: none; 
+}
